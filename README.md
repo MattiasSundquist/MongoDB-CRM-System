@@ -10,7 +10,7 @@ The application can manage multiple coffee shops and can also manage the opening
 This is only a prototype and should NOT be used in production.
 
 Requirements:
-MongoDB
+MongoDB,
 Visual studio
 
 At startup the application will create the database, some collections and will create documents in most collections. It will also create a login for "admin" "admin" which has full access to the system functionallities. Comment out "addStuffToDB()" on line 37 in Database.cs after first startup to avoid clones in the collections.
